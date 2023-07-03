@@ -8,7 +8,7 @@
         <p class="text-base text-gray-900 p-2 italic">FE Developer at LoveToKnow Media</p>
     </section>
 
-    <section class="flex flex-col md:flex">
+    <section class="flex flex-col md:flex-row">
         <div class="md:w-3/4">
 
             <p class="text-lg py-2">I am experienced in Vue.js and Nuxt.js in which I produce high quality code for my
@@ -22,5 +22,11 @@
             <p class="text-lg py-2">I am a team player and I enjoy working in a team where we can learn from each other and
                 grow together. I am also
                 a fast learner and I am always looking for new challenges and opportunities to grow as a developer.</p>
-    </div>
-</section></template>
+        </div>
+        <img src="~/assets/images/profile.jpg" class="w-1/2 md:max-w-sm p-8 mx-auto" />
+    </section>
+
+    <section>
+        <h2 class="text-3xl font-bold mt-8">Latest Blog post</h2>
+    </section>
+</template>
